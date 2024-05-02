@@ -9,27 +9,6 @@ function SayMyName(mysecretcode) {
     alert(`Hi ${myname} - ${mysecretcode}`);
   }
 
-
-
-  //New function
-  function add(number1, number2){
-    return number1 + number2
-  }
-
-  //Call the function and specify the values
-
-  function subtract(number1, number2){
-    return number1 - number2
-  }
-
-  function division(number1, number2){
-    return number1 / number2
-  }
-
-  function multiply(number1, number2){
-    return number1 * number2
-  }
-
   function calculate() {
     let number1 = Number(document.getElementById('numberOne').value);
     let number2 = Number(document.getElementById('numberTwo').value);
