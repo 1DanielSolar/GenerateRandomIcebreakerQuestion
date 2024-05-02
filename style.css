@@ -1,11 +1,16 @@
 body {
-    background-color: #f8f9fa; /* Light gray background for a subtle look */
+    background-color: #23272a; /* Discord dark mode background color */
     height: 100vh; /* Full viewport height */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     align-items: center;
+    color: white;
 }
+
 #displayQuestion {
     margin-top: 20px;
     font-size: 20px; /* Larger text for visibility */
@@ -15,11 +20,14 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #007bff; /* Bootstrap primary color */
+    background-color: #23272a; /* Discord dark mode background color */
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
     z-index: 1000; /* High z-index to keep navbar above other content */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 nav a {
     color: white;
@@ -32,4 +40,9 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     padding: 10px 15px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+
